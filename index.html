@@ -1,74 +1,24 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-  	<title>Login 10</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="content/css/style.css">
-	</head>
-	<body class="img js-fullheight" style="background-image: url(content/images/bg.jpg);">
-        <style>
-            .Logo{
-                border-right: 2px solid rgba(255, 255, 255, 0.75);
-                font-size: 55px;
-                white-space: nowrap;
-                overflow: hidden;
-                font-family: 'Times New Roman';
-            }
-            .typing-anim{
-                animation: blinkCursor 550ms infinite normal,
-                typing 2s steps(25) 550ms normal;
-            }
-            @keyframes typing {
-                from{
-                    width: 0;
-                }
-                to{
-                    width: 303.64px;
-                }
-            }
-            @keyframes blinkCursor {
-                form{
-                    border-right-color: rgba(255, 255, 255, 0.75);
-                }
-                to{
-                    border-right-color: transparent;
-                }
-            }
-        </style>
-		<section class="ftco-section">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div style="padding-bottom: 50px;">
-						<h1 class="heading-section Logo typing-anim">Let's Connect</h2>
-					</div>
-				</div>
-				<div class="row justify-content-center">
-					<div class="col-md-6 col-lg-4">
-						<div class="login-wrap p-0">
-							<h3 class="mb-4 text-center">Ja possui uma conta?</h3>
-							<form action="./content/pages/Home/index.html">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Username" required>
-								</div>
-								<div class="form-group">
-									<input id="password-field" type="password" class="form-control" placeholder="Password" required>
-									<span toggle="#password-field" class="toggle-password"></span>
-								</div>
-								<div class="form-group">
-									<button type="submit" class="form-control btn btn-primary submit px-3"> logar</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<script src="content/js/Bootstrap/jquery.min.js" defer></script>
-		<script src="content/js/Bootstrap/main.js" defer></script>
-		<script src="content/js/index.js" defer></script>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+</body>
 </html>
-
